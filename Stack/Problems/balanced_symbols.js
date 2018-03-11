@@ -4,7 +4,7 @@ const openingSymbols = '{([';
 const closingSymbols = '})]';
 
 function isBalanced(str) {
-    let s = Stack();
+    let s = new Stack();
     let balanced = true;
     let index = 0;
 
